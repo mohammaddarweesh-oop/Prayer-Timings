@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Adaan</title>
+  </head>
+  <body>
+    <nav>
+      <select name="city" id="city" onclick="fillList()">
+        <option value="Amman">إختر المدينة</option>
+        <option value="Amman">عمان</option>
+        <option value="Irbid">إربد</option>
+        <option value="Al ‘Aqabah">العقبه</option>
+        <option value="Zarqa">الزرقاء</option>
+        <option value="Jarash">جرش</option>
+        <option value="‘Ajlūn">عجلون</option>
+        <option value="Ma'an">معان</option>
+        <option value="Tafila">الطفيلة</option>
+        <option value="Al-azraq">الأزرق</option>
+        <option value="Madaba">مادبا</option>
+        <option value="Ramtha">الرمثا</option>
+        <option value="Sahab">سحاب</option>
+        <option value="Al Balqā’">البلقاء</option>
+        <option value="Al Karak">الكرك</option>
+        <option value="	Al Mafraq">المفرق</option>
+      </select>
+      <h1 id="city-name"></h1>
+      <label for=""> <span id="date"></span> </label>
+    </nav>
+    <!--  -->
+    <div id="content">
+      <div id="times">
+        <div class="card">
+          <div class="header">فجر</div>
+          <div class="body">5:17</div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h2>Eng Mohammad Darweesh</h2>
+      <p>engmohammaddarweesh@gmail.com</p>
+    </footer>
+    <!-- <script src="./node_modules/axios/dist/axios.min.js"></script> -->
+    <script src="script.js"></script>
+  </body>
+</html>
